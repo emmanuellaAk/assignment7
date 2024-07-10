@@ -1,6 +1,8 @@
 import React from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
-
+import Header from "./Header";
+import Footer from "./Footer.js";
+import Checkout from "./Checkout";
 
 export default function CartScreen({navigation}){
     return(
