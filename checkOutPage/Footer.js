@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-import { useCart } from '../CartContext';
+import { useCart } from '../cartContext';
 
 export default function Footer() {
     const { cart } = useCart();

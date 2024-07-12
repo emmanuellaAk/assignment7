@@ -1,5 +1,5 @@
 import { StyleSheet, View, Image, TouchableOpacity, Text } from "react-native";
-import { useCart } from "../CartContext";
+import { useCart } from "../cartContext";
 
 const CartList = ({item}) => {
     const {dispatch} = useCart()
